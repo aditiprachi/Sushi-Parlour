@@ -1,0 +1,299 @@
+@font-face {
+  font-family:goodDog;
+  src: url(font.ttf);
+}
+html , body {
+  background-color: rgb(31, 32, 33);
+  color: rgb(180, 209, 148);
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.newfont{
+  font-family: goodDog;
+}
+
+.sign{
+  font-size: 5em;
+  font-weight: 600;
+  line-height: 1em;
+  font-family: goodDog;
+}
+
+.logo {
+  padding-left: 65%;
+  padding-top: 1.3em;
+  font-size: 2.5em;
+  font-family: goodDog;
+}
+.welcome {
+  padding-right: 1.3em !important;
+}
+
+.start {
+  padding: 1.8em 2em 10em 0;
+  font-size: 1.5em;
+  background-image: linear-gradient(to bottom, rgba(31, 32, 33, 0.8) 85%, rgba(31, 32, 33, 0.8) 30%, #313233 100%),url(bg.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.first {
+  padding-left: 65%;
+  padding-top: 1em;
+  font-size: 2em;
+}
+
+.first button{
+  background-color: rgba(180, 209, 148, 0.2);
+  margin-top: 3em;
+  color: rgb(180, 209, 148);
+  font-size: 0.6em;
+  letter-spacing: 0.15em;
+}
+
+.second {
+  overflow:hidden;
+}
+.about {
+  padding: 8em 0 0 8em;
+}
+.sushi {
+  transform: rotate(45deg);
+  position: relative;
+  border-radius: 10%;
+}
+
+.line1 {
+  padding: 1em;
+  width:550px;
+  border-top: 15px solid rgb(31, 32, 33);
+  transform: rotate(45deg);
+  position: absolute;
+  top:50%;
+  left:-0.5em;
+}
+.line2 {
+  padding: 1em;
+  width:550px;
+  border-top: 15px solid rgb(31, 32, 33);
+  transform: rotate(135deg);
+  position: absolute;
+  top:40%;
+  left:-0.5em;
+}
+
+.stripe{
+  padding-bottom: 4em;
+  padding-top: 4em;
+  background-color: rgba(180, 209, 148, 0.2);
+}
+
+.stripe p{
+  color: white;
+  font-size: 1em;
+}
+.third {
+  background-color: rgba(180, 209, 148, 0.2);
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.menu {
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+.we {
+  font-size: 4em;
+  text-align: center;
+  font-family: goodDog;
+}
+.to {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  line-height: 0.8em;
+  font-weight: 200;
+}
+
+.broc{
+  padding-top: 2em;
+}
+
+.third img{
+  width: 100%;
+  height: 17em;
+}
+
+.photo {
+  padding: 0;
+}
+
+.text {
+  text-align: center;
+  padding: 2em;
+  margin: auto;
+}
+.text div {
+  font-size: 2em;
+}
+.text p {
+  color: white;
+}
+
+.fourth {
+  font-size: 1.7em;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-top: 2em;
+}
+.fourth p {
+  font-size: 0.7em;
+}
+
+.fifth img , .sixth img , .seventh img {
+  width: 100%;
+}
+
+.new {
+  padding-top: 2em;
+  font-size: 1em;
+  color: white;
+}
+.new span{
+  font-size: 1.4em;
+}
+
+.seventh{
+  background-color: rgba(180, 209, 148, 0.2);
+  padding-bottom: 5em;
+}
+.seventh img{
+  width: 100%;
+  height: 15em;
+}
+.read {
+  border-bottom:  3px solid rgb(180, 215, 148);
+  width:5em;
+}
+.caption {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(31, 32, 33);
+  font-size: 1.1em;
+  padding: 1em;
+  font-weight: 500;
+}
+.caption span{
+  font-size: 0.8em;
+}
+
+
+.icon {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.eighth {
+  margin: auto;
+  color: white;
+  font-weight: 500;
+}
+
+ul{
+  list-style-type: none;
+}
+
+form {
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.book {
+  font-size: 4.2em;
+  text-align: center;
+
+}
+
+.ab{
+  padding-bottom: 1em;
+  font-size: 1.3em;
+}
+
+form button{
+  background-color: rgb(31, 32, 33);
+  margin-top: 1em;
+}
+
+
+
+
+
+@media screen and (max-width: 1295px) {
+  .line1 {
+    width:570px;
+    top:57%;
+  }
+  .line2 {
+    top:33%;
+  }
+  .about {
+    padding: 6em 0 0 6em;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+  .line1 {
+    width:1000px;
+    top:100%;
+    left:-8em;
+  }
+  .line2 {
+    top:25%;
+  }
+  .third img{
+    height: 15em;
+  }
+  .text {
+    padding: 0;
+  }
+  .about {
+    padding: 4em 0 0 4em;
+  }
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .line1 {
+    width:1000px;
+    top:66%;
+    left:-12em;
+  }
+  .line2 {
+    top:30%;
+  }
+  .first, .logo {
+    padding-left: 55%;
+  }
+  .broc img {
+    height: auto;
+  }
+  .about {
+    padding: 5em 0 5em 5em;
+  }
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .first, .logo {
+    padding-left: 45%;
+  }
+
+}
